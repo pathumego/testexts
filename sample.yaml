@@ -1,15 +1,27 @@
+---
 data:
   id:
   version:
   scirpt: si
-  writing_systems: sinhala, pali
+  writing_systems: 
   content_tags:
   test_type:
   test_tags:
   translations:
+  readable: [ true, false ]
+  linktoimage:
+
 credits:
   credits:
   copyright:
   license:
   year:
   url: 
+
+content:
+  - headline: |
+    subheadline: |
+    body: |
+  - headline: |        
+    subheadline: |
+    body: |
