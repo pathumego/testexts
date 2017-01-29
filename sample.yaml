@@ -1,8 +1,9 @@
+testext v0.1.1-alpha
 ---
 data:
   id:
   version:
-  scirpt: si
+  scirpt:
   writing_systems: 
   content_tags:
   test_type:
