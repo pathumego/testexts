@@ -1,28 +1,37 @@
 ---
 testext: 0.0.1
-data:
+data: # data related to test
   id:
-  version:
-  scirpt:
-  writing_systems: 
-  content_tags:
-  test_type:
-  test_tags:
-  translations:
-  readable: [ true, false ]
-  linktoimage:
+  version: #document version
+  description: #document version
+  langauge: #ISO 639 language code
+  scirpt: #ISO 15924 script code
+  writing_systems: # Other writing system, dialect
+  content_type: #Content type categories. ie: headline, specimen, panagram <TODO a list of standard common tags.>
+  content_tags: #Content type tags. ie:magazine, news, bussiness, flower <TODO a list of standard common tags.>
+  test_type: #Test type categories ie: requierd-shaping, design-matras, technical <TODO a list of standard test_types.>
+  test_tags: #more descriptive tags. Ideally sciprt specific or project specific features.
+  translations: #ID's of available translated content in testext
+  readable: #Is this a readble text [ true, false ]
+  linktoimage: #link to images of content correctly renderd.
 
-credits:
-  credits:
-  copyright:
-  license:
-  year:
-  url: 
+credits: #metadata of the test
+  credits: #a general credit line
+  copyright: #copyright notice
+  license:  #Current SPDX license identifier <https://spdx.org/licenses/> for the license of the text
+  year: #Year of the text, ideally when the text was produced.
+  url: #URL to orignal
 
-content:
+content: # content blocks
   - headline: |
+#headline in mutilines.
+#Markdown allowed.
+#line breaks are preserved.
     subheadline: |
+#sub headline in mutilines.
+#Markdown allowed.
+#line breaks are preserved.
     body: |
-  - headline: |        
-    subheadline: |
-    body: |
+#body text in mutilines.
+#Markdown allowed.
+#line breaks are preserved.
